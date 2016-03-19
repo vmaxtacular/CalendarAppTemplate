@@ -1,0 +1,74 @@
+body {
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+a {
+	font-size: 25px;
+	color: #D4212F;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+	color: ##333333;
+}
+
+.wrapper {
+	margin: 10em;
+	border: 0.5em solid #ccc;
+	width: 39em;
+	height: 39em;
+	box-shadow: 0.8em 0.8em #4C4C4C;
+
+}
+
+.header {
+	height: 7em;
+	padding: 2em;
+
+}
+
+.calendar-body .col-xs-1 {
+	width: 5em;
+	margin-left: 0.2em;
+	text-align: center;
+}
+
+.header p {
+	padding-top: 0.1em;
+	font-size: 30px;
+	text-align: center;
+}
+
+.header span {
+	padding: -5em;
+}
+
+.inactive {
+	color: #ccc;
+}
+
+.weekdays {
+	padding: 1em;
+}
+
+.dates {
+	padding: 1em 4em 1em 4em;
+}
+
+.line {
+	margin-top: 3em;
+	padding-top: 1em;
+	height: 0.5em;
+	border: 0.1em solid #EEEEEE;
+
+}
+
+.current-date {
+	text-align: center;
+	padding: 1em;
+}
+
+.calendar-body .row .col-xs-1 p:hover {
+	color: #4778a6;
+}
